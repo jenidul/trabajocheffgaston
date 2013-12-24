@@ -1,0 +1,118 @@
+*{
+    border:0.1em;
+    margin:0.1em;
+    padding:0.1em;
+}
+body {
+    font-family: arial;
+    font-size: 16px;
+}
+header {
+	background:#77A3A8;
+    margin: 0 auto;
+    max-width: 90%;
+    
+}
+header figure img
+{
+	border-radius: 10px;
+	float:right; 
+	width:50px;
+	padding: 0.5em 0.5em 0 0 ;
+} 
+header h1
+{
+	color: white;
+	font-size: 3em;
+	text-shadow:2px 2px #000;
+	
+
+}
+header figure#start
+{
+	float:right;
+    margin:-0.1em;
+    padding:-0.1em;
+	width: 30px;
+}
+header p
+{
+	color: orange;
+	text-align: right;
+	font-size: 2em;
+	margin-right: 150px;
+}
+section{
+	background-color:#DBCD44;
+    margin: 0 auto;
+    max-width: 90%;
+}
+p#nada,div#maya{
+	display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
+}
+.yeni{
+	background-color:#fff;
+	border:0.15em solid #ccc;
+	color:green;
+    display:block;
+	float:right;
+    font-size:1.1em;
+    margin:0.15em auto;
+	margin-right:12px;
+	max-width: 18%;
+	padding: 0.15em;	
+    vertical-align:top;
+    text-align:center;
+    text-decoration:none;
+    position:relative;
+    top:-10px;
+}
+article{
+	background-color:#fff; 
+	border-radius: 0.5em;
+    height:85%;
+	margin: 15px;
+	padding: 15px;
+}
+section#contenedor,section#uno,article h2{
+	text-align: center;
+}
+h2#norteña{
+    color:green;
+    float: left;
+    vertical-align: top;
+}
+h2#tipico{
+    color:#6F1821;
+    float: left;
+    vertical-align: top;
+}
+h2#musica{
+    color:orange;
+    float: left;
+    vertical-align: top;
+}
+article figure img{
+    float:right;
+    vertical-align:top;
+    margin:0.9em -7em 0 0 ;
+    padding:0 -0.2em 0 0;
+    width:190px;
+}
+a {
+    background: #9BC15E;
+    border: 0.1em solid #116409;
+    border-radius: 0.25em;
+    color: #FFF;
+    display: block;
+    font-size: 1.4em;
+    font-weight: bold;
+    margin:0.25em auto;
+    max-width:15%;
+    padding: 0.25em;
+    text-align:center;
+    text-decoration: none;
+    vertical-align:top;
+}
